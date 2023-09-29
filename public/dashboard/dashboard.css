@@ -140,7 +140,21 @@ background-color: #1a72b6;
     background-color: red;
     height: 1px;
 }
-
+.whatsapp{
+    background-color: #045089;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.whatsapp:hover{
+    height: 55px;
+    width: 55px;
+    transition: 0.5s ease-in-out;
+}
 @media screen and (max-width:950px) {
     .container{
         width: 90%;
@@ -173,6 +187,5 @@ background-color: #1a72b6;
     padding: 5px 20px;
     font-size:8px ;
     border-radius: 5px;
-        
-    }
+        }
 }
