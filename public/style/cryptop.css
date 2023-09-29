@@ -1,0 +1,411 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+main{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.alltab{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+.everything{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 40px;
+}
+.firsttab{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+
+}
+ .crypto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 2%;
+} 
+.wallet-address{
+    background-color: rgb(240, 240, 240);
+    padding: 8% 6%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    align-items: center;
+    justify-content: center;
+    h4{
+        font-size: 14px;
+        color: #00000080;
+    }
+    h5{
+        font-size: 13.5;
+        color: #00000080;
+    }
+    h3{
+        font-size: 18px;
+    }
+}
+
+.transaction, .select-crypto, .description, .screens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+.amount{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.submit{
+    padding-top: 10%;
+}
+.submit button{
+    background-color: #045089;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    
+}
+
+input.tran, input.screen, input.desc, select.selist{
+    width: 22vw;
+    height: 5vh;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    color: #00000080;
+    padding-left: 15px;
+}
+
+
+.allinputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* SECOND PART */
+.secondtab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 2% 4%;
+    border-radius: 10px;
+
+    
+}
+
+
+.lists{
+   
+    gap: 60px;
+    text-align: left;
+}
+.lypa, .fya, .sbos{
+    display: flex;
+    padding: 5% 0%;
+    gap: 30px;
+    justify-content: center;
+    align-items:flex-start;
+}
+.head{
+    position: relative;
+    display: inline-block;
+    :hover::before{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 25%;
+        border-bottom: 3px solid #000;
+        cursor: pointer;
+    }
+}
+.no1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #045089;
+    padding: 3% 4%;
+    border-radius: 50%;
+    color: white;
+    }
+.no2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #045089;
+    padding: 3% 4%;
+    border-radius: 50%;
+    color: white;
+    }
+
+.no3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #045089;
+    padding: 3% 4%;
+    border-radius: 50%;
+    color: white;
+    }
+.no1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 25vw;
+    h4{
+        padding-bottom: 5%;
+        color: #00000080;
+        font-size: 12px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    main{
+        width: 100%;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    .alltab{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        text-align: center;
+    }
+    .everything{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        gap: 40px;
+    }
+    .firsttab{
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 4% 4%;
+    
+    }
+     .crypto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10%;
+        gap: 10px;
+    } 
+    .wallet-address{
+        background-color: rgb(240, 240, 240);
+        padding: 4% 0%;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+        
+        align-items: center;
+        justify-content: center;
+        h4{
+            font-size: 13px;
+            color: #00000080;
+        }
+        h5{
+            font-size: 12.5;
+            color: #00000080;
+        }
+        h3{
+            font-size: 14px;
+        }
+    }
+    
+    .transaction, .select-crypto, .description, .screens{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+    }
+    .amount{
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    .submit{
+        padding-top: 10%;
+    }
+    .submit button{
+        background-color: #045089;
+        color: white;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        height: 5vh;
+        
+    }
+    
+    input.tran, input.screen, input.desc, select.selist{
+        width: 80vw;
+        height: 5vh;
+        border-style: solid;
+        border-radius: 5px;
+        background-color: rgb(240, 240, 240);
+        color: #00000080;
+        padding-left: 15px;
+    }
+    
+    
+    .allinputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    /* SECOND PART */
+    .secondtab{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        padding: 5% 15%;
+        border-radius: 10px;
+    
+        
+    }
+    
+    
+    .lists{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+        gap: 60px;
+        text-align: left;
+    }
+    .lypa, .fya, .sbos{
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0%;
+        gap: 20px;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        
+    }
+    .head{
+        position: relative;
+        display: inline-block;
+        :hover::before{
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 25%;
+            border-bottom: 3px solid #000;
+            cursor: pointer;
+        }
+    }
+    .no1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #045089;
+        padding: 4% 7%;
+        border-radius: 50%;
+        color: white;
+       
+        }
+    .no2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #045089;
+        padding: 4% 7%;
+        border-radius: 50%;
+        color: white;
+        }
+    
+    .no3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #045089;
+        padding: 4% 7%;
+        border-radius: 50%;
+        color: white;
+        }
+    .no1-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 75vw;
+        h4{
+            padding-bottom: 5%;
+            color: #00000080;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 20px;
+        }
+    }
+    
+}
