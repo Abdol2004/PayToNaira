@@ -52,11 +52,11 @@ main{
 .buy-sell{
     display: flex;
     align-items: center;
-    
+    justify-content: center;
     gap: 30px;
 }
 .buy-sell button{
-    padding: 20px 85px;
+    padding: 20px 55px;
     background-color: #F9F9F9;
     border: none;
     border-radius: 5px;
@@ -107,7 +107,8 @@ input{
 }
 .btn button{
     display: flex;
-    padding: 20px 200px;
+    justify-content: center;
+    padding: 15px 150px;
     font-size: 10px;
     font-weight: bold;
     border: none;
